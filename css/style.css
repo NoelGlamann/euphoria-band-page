@@ -1,0 +1,95 @@
+/*Noel Glamann
+February 5, 2021*/
+
+body{
+    margin: 0;
+    padding: 0px;
+
+    background: white;
+    color: black;
+}
+
+.topbar{
+    display: block;
+    width: 100%;
+    padding: 3px 0;
+    height: 22px;
+
+    background: black;
+}
+
+.topbar-left{
+    display: block;
+    width: 50%;
+    float: left;
+
+    background: black;
+    color: white;
+}
+
+.topbar-left i{
+    padding-left: 30px;
+}
+
+.topbar-right{
+    display: block;
+    width: 50%;
+    float: left;
+
+    background: black;
+    text-align: right;
+}
+
+.social{
+    padding-right: 30px;
+}
+
+.topbar a{
+    color: white;
+}
+
+.navbar{
+    display: block;
+    width: 100%;
+    padding: 3px 0;
+
+    background: black;
+    border-top: solid 1px darkgray;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    display: inline;
+    padding: 10px 15px;
+    color: #A9A6B5;
+    text-decoration: none;
+
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background: purple;
+}
+.active a{
+    color: white;
+}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+/*Noel Glamann
+February 5, 2021*/
+
+.pageheader{
+    display: block;
+    width: 100%;
+
+    background-image: linear-gradient(black, #32165A, #32165A,#2B4195, #6F8DFF);
+    color: white;
+}
+
+.pageheader h1{
+    margin: 0;
+}
+
+.pageheader img{
+    display: block;
+    width: 100%;
+}
