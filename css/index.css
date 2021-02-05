@@ -4,16 +4,34 @@ February 5, 2021*/
 .pageheader{
     display: block;
     width: 100%;
+    position: relative;
 
-    background-image: linear-gradient(black, #32165A, #32165A,#2B4195, #6F8DFF);
     color: white;
 }
 
-.pageheader h1{
-    margin: 0;
-}
 
 .pageheader img{
     display: block;
     width: 100%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%)
+}
+
+.center h1{
+    width: 100%;
+    background-image: linear-gradient(black, #32165A, #32165A,#2B4195, black);
+
+    text-align: center;
+    font-size: 80px;
+}
+
+.pageheader img{
+    border: solid 5px white;
+    border-radius: 30px;
 }

@@ -1,0 +1,29 @@
+/*Noel Glamann
+February 5, 2021*/
+
+.pageheader{
+    display: block;
+    width: 100%;
+    background: #32165A;
+    
+}
+.pageheader h1{
+    margin: 0;
+    padding: 20px 0;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar{
+    display: block;
+    width: 20%;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.main{
+    display: block;
+    width: 79%;
+    float: left;
+}
