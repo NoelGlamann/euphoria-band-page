@@ -2,16 +2,16 @@
 February 5, 2021*/
 
 body{
-    background: yellow;
+    background:white;
 }
 
 h1{
     display: block;
     width: 100%;
     text-align: center;
-    
-    font-size: 50px;
-    color: purple;
+    font-family: 'Train One', cursive;
+    font-size: 40px;
+    color: black;
 }
 
 
@@ -27,6 +27,7 @@ table{
 
 th {
     font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 th, td{

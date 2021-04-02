@@ -1,6 +1,19 @@
 /*Noel Glamann
 February 5, 2021*/
 
+body{
+}
+
+.backimg{
+    display: block;
+    width: 100%;
+}
+
+.backimg img{
+    width: 100%;
+    opacity: 0.5;
+}
+
 .pageheader{
     display: block;
     width: 100%;
@@ -9,29 +22,18 @@ February 5, 2021*/
     color: white;
 }
 
-
-.pageheader img{
-    display: block;
-    width: 100%;
-}
-
 .center{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     width: 100%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .center h1{
     width: 100%;
-    background-image: linear-gradient(black, #32165A, #32165A,#2B4195, black);
+    /*background-image: linear-gradient(black, #32165A, #32165A,#2B4195, black);*/
 
     text-align: center;
-    font-size: 80px;
-}
-
-.pageheader img{
-    border: solid 5px white;
-    border-radius: 30px;
+    font-size: 110px;
 }

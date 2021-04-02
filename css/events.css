@@ -1,33 +1,76 @@
 /*Noel Glamann
 February 5, 2021*/
 
-.pageheader{
-    display: block;
+
+.backimg{
+    display:block;
     width: 100%;
-    background: #32165A;
-    
+    float: left;
 }
-.pageheader h1{
-    margin: 0;
-    padding: 20px 0;
-
-    text-align: center;
-    font-weight: bold;
-}
-
-.sidebar{
-    display: block;
+.backimg .words{
+    display:block;
     width: 20%;
     float: left;
-    border-right: 2px solid white;
+}
+.backimg .words .spacing{
+    display:block;
+    width: 50%;
+    margin-left: 35%;
+
+    line-height: 150%;
+
+    color: white;
+    background: black;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+
+}
+.backimg img{
+    display: block;
+    width: 80%;
+    float: left;
+    opacity: 0.5;
 }
 
-.main{
+.block{
     display: block;
-    width: 79%;
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(216, 216, 216, 0.4)
+}
+
+.block h1{
+    text-align: right;
+    padding-top:20px;
+    margin-right: 100px;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.calendar{
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.calendar iframe{
+    display: block;
+    width: 100%;
+    height: 850px;
+}
+
+.booking {
+    display: block;
+    width: 100%;
     float: left;
 }
-
-iframe{
-    
+.booking h2{
+    font-size: 100px;
 }

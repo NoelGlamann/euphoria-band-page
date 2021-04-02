@@ -1,0 +1,42 @@
+/*Noel Glamann
+March 10, 2021*/
+
+.intro{
+    display: block;
+    width: 100%;
+}
+
+.intro img{
+    display: block;
+    width: 55%;
+    float: left;
+}
+.intro .text {
+    text-align: right;
+    font-size: 100px;
+    
+    line-height: 200%;
+    margin-right: 5%;
+}
+
+.kendrick {
+    display: block;
+    width: 100%; 
+    background: rgba(132, 132, 132, 0.4);
+}
+.details-left{
+    background: transparent;
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+    height: 500px;
+}
+.details-right{
+    display: block;
+    float: left;
+    text-align: right;
+    width: 40%;
+    margin: 0 5%;
+    height: 500px;
+}

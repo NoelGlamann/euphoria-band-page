@@ -4,11 +4,15 @@ February 5, 2021*/
 body{
     margin: 0;
     padding: 0px;
-
     background: black;
     color: white;
-}
 
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
 .topbar{
     display: block;
     width: 100%;
@@ -30,6 +34,9 @@ body{
 .topbar-left i{
     padding-left: 30px;
 }
+.topbar-left a{
+    text-decoration: none;
+}
 
 .topbar-right{
     display: block;
@@ -46,6 +53,7 @@ body{
 
 .topbar a{
     color: white;
+    font-size: 12px
 }
 
 .navbar{
@@ -60,7 +68,7 @@ body{
 
 .navbar ul{
     list-style-type: none;
-    margin: 10px;
+    margin: 2px;
 }
 
 .navbar li{
@@ -69,17 +77,17 @@ body{
 
 .navbar a{
     display: inline;
-    padding: 10px 15px;
-    color: #A9A6B5;
+    padding: 0px 15px;
+    color: #C5C4C7;
     text-decoration: none;
 
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 15px;
     font-weight: bold;
 }
 
 .navbar a:hover{
-    background: purple;
+    color: purple;
 }
 .active a{
     color: white;
