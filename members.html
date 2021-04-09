@@ -44,35 +44,51 @@ February 5, 2021
 			</ul>
 		</div>
 		<!--NAV BAR END-->
-		
-
-		<!-- CONTENT START -->
-		<div class="intro">
-			<img src="img/four1.jpg">
-			
-			<div class="text">
-				<span style="background: rgba(193, 87, 59, 0.4);">MEET</span><br>
-				<span style="background: rgba(193, 87, 59, 0.4);">THE</span><br>
-				<span style="background: rgba(193, 87, 59, 0.4);">BAND</span><br>
-				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+		<div class="content">
+			<img src="img/live-two-7.jpg">
+			<div class="title">
+				<p> Meet the Band </p>
 			</div>
+			<div class="bio">
+				<p> This section is all about you guys. 
+					we could add sections about each member
+					or a blurb about the band as a whole. 
+					your story, blah , blah whatever you want. 
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
+				</p>
+			</div>
+
 		</div>
-		<br>
-		<br>
-		<br>
+
 		<div class="kendrick">
 			<div class="details-left">
 				<div class="name">
 					<h1>Kendrick Bearpaw</h1>
 					<h3>(Queen Weezal)</h3>
+					<br>
+					<p>
+						Lorem ipsum dolor sit amet consectetur 
+						adipisicing elit. Necessitatibus, quasi 
+						non saepe quo vitae itaque ea debitis 
+						rem perspiciatis possimus ratione 
+						architecto sequi, cum, fuga ab maiores 
+						voluptatem in iusto.
+					</p>
 				</div>
 			</div>
 			<div class="details-right">
-				<h2>Lead Vocalist/Guitarist</h2>
-				<img src="img/self-kendrick2.jpg" height="400">
+				<h2 style="text-align: right;">Lead Vocalist/Guitarist</h2>
+				<div class="images">
+					<img src="img/self-kendrick3.jpg" height="400">
+					<img src="img/self-kendrick2.jpg" height="400">
+					<img src="img/self-kendrick4.jpg" height="400">
+				</div>
 			</div>
 		</div>
-		<hr>
 		<div class="simon">
 			<div class="details-left">
 				<div class="name">
@@ -85,7 +101,6 @@ February 5, 2021
 				<img src="img/self-simon4.jpg" height="400">
 			</div>
 		</div>
-		<hr>
 		<div class="kendrick">
 			<div class="details-left">
 				<div class="name">
@@ -98,7 +113,6 @@ February 5, 2021
 				<img src="img/self-koda.jpg" height="400">
 			</div>
 		</div>
-		<hr>
 		<div class="kendrick">
 			<div class="details-left">
 				<div class="name">
@@ -110,7 +124,75 @@ February 5, 2021
 				<h2>Drummer</h2>
 			</div>
 		</div>
-		<!-- CONTENT END -->
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
 </html>

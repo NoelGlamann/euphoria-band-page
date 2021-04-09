@@ -1,49 +1,67 @@
 /*Noel Glamann
 March 10, 2021*/
 
-.intro{
+.content{
+    display: block;
+    width: 100%;
+}
+.content img{
+    width: 100%;
+    opacity: 0.4;
+}
+.title p{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Open Sans', sans-serif;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.bio{
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(132, 132, 132, 0.5);
+
+}
+
+.kendrick{
     display: block;
     width: 100%;
 }
 
-.intro img{
+.details-left{
     display: block;
-    width: 55%;
-    float: left;
-}
-.intro .text {
-    text-align: right;
-    font-size: 100px;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float:left;
+    background:rgba(132, 132, 132, 0.5);
+    height: 500px;
     
-    line-height: 200%;
-    margin-right: 5%;
 }
 
-.kendrick {
-    display: block;
-    width: 100%; 
-    background: rgba(132, 132, 132, 0.4);
-}
-.details-left{
-    background: transparent;
-    display: block;
-    float: left;
-    width: 40%;
-    margin: 0 5%;
-    height: 500px;
-}
 .details-right{
     display: block;
-    float: left;
-    text-align: right;
-    width: 40%;
-    margin: 0 5%;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float:left;
+    background:rgba(132, 132, 132, 0.5);
     height: 500px;
+    
 }
-
-
-
-
-
-
-
+.details-right img{
+    height: 370px;
+}
+.images {
+    display: block;
+    width: 100%;
+    
+}

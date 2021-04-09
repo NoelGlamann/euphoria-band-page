@@ -1,2 +1,27 @@
 /*Noel Glamann
 March 10, 2021*/
+
+.bandcontact{
+    display: block;
+    width: 100%;
+
+}
+
+.bandcontact .information {
+    display: 20%;
+    padding: 5%;
+    float: left;
+    margin: 10% 10%;
+    background:rgba(132, 132, 132, 0.7);
+    font-size: 20px;
+    line-height:200%;
+}
+.information h1{
+    text-align: center;
+    font-size:50px;
+}
+.bandcontact img{
+    width: 35%;
+    margin-left:10%;
+    margin-right:5%;
+}
