@@ -2,14 +2,20 @@
 February 5, 2021*/
 
 body{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: block;
+    width: 100%;
     margin: 0;
     padding: 0px;
     background: black;
     color: white;
 
     font-family: 'Montserrat', sans-serif;
-
 }
+
 h1, h2, h3, h4{
     font-family: 'Open Sans', sans-serif;
 }
@@ -17,58 +23,40 @@ h1, h2, h3, h4{
     display: block;
     width: 100%;
     padding: 3px 0;
-    height: 22px;
-
-    background: black;
 }
-
 .topbar-left{
     display: block;
     width: 50%;
     float: left;
 
-    background: black;
     color: white;
-}
-
-.topbar-left i{
-    padding-left: 30px;
 }
 .topbar-left a{
     text-decoration: none;
 }
-
 .topbar-right{
     display: block;
     width: 50%;
     float: left;
-
-    background: black;
     text-align: right;
 }
-
 .social{
     padding-right: 30px;
 }
-
 .topbar a{
     color: white;
-    font-size: 12px
 }
-
 .navbar{
     display: block;
     width: 100%;
     padding: 3px 0;
 
-    background: black;
     border-top: solid 1px darkgray;
     color: white;
 }
 
 .navbar ul{
     list-style-type: none;
-    margin: 2px;
 }
 
 .navbar li{
@@ -76,13 +64,8 @@ h1, h2, h3, h4{
 }
 
 .navbar a{
-    display: inline;
-    padding: 0px 15px;
     color: #C5C4C7;
     text-decoration: none;
-
-    font-size: 18px;
-    margin-left: 15px;
     font-weight: bold;
 }
 
@@ -92,10 +75,61 @@ h1, h2, h3, h4{
 .active a{
     color: white;
 }
+
+
+@media only screen and (max-width: 480px){
+    .topbar{
+        height: 30px;
+    }
+
+    .topbar-left i{
+        padding-left: 5px;
+    }
+
+    .social{
+        padding-right: 5px;
+    }
+
+    .topbar a{
+        font-size: 18px;
+    }
+    .navbar ul{
+        margin:0;
+    }
+    .navbar a{
+        padding: 0px 10px;
+        font-size: 20px;
+        margin-left: 0;
+    }
 }
 
+@media only screen and (min-width: 481px){
+    .topbar{
+        height: 22px;
+    }
+    .topbar-left i{
+        padding-left: 30px;
+    }
+    .social{
+        padding-right: 30px;
+    }
+    
+    .topbar a{
+        font-size: 15px
+    }
+    .navbar ul{
+        margin: 2px;
+    }
+    
+    .navbar a{
+        display: inline;
+        padding: 0px 15px;
+        font-size: 25px;
+        margin-left: 20px;
+    }
 
 
+}
 
 
 
