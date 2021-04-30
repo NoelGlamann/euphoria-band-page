@@ -1,0 +1,79 @@
+/*Noel Glamann
+April 30, 2021*/
+
+
+/* ===============================
+        MOBILE
+================================*/
+@media only screen and (max-width: 480px){
+    .words{display: none}
+    .mobwords{
+        display: block;
+        width: 30vw;
+        font-size: 9vw;
+        float: left;
+    }
+    img.back{
+        display: block;
+        float: left;
+        width: 67vw;
+    }
+    .block{
+        display: block;
+        width: 100%;
+    }
+    .block h1{display:none;}
+    .calendar{
+        display: block;
+        width: 96vw;
+        margin-left: 2vw;
+        margin-top: 4vw;
+        height: 110vw;
+
+    }
+    .calendar iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+/* ===============================
+        DESKTOP
+================================*/
+@media only screen and (min-width: 481px){
+    .mobwords{display: none;}
+    div.top{width: 100%;}
+    div.words{
+        display: block;
+        width: 30vw;
+        float: left;
+    }
+    div.spacing{
+        font-size: 7vw;
+        margin-left: 2vw;
+    }
+    img.back{
+        display: block;
+        float: left;
+        width: 64vw;
+    }
+    .block{
+        display: block;
+        width: 80vw;
+        margin: 0 10vw;
+        background: rgba(187, 187, 187, 0.4);
+        height: fit-content;
+    }
+    .block h1{
+        text-align: center;
+        font-size: 4vw;
+    }
+    div.calendar{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .calendar iframe{
+        width: 100%;
+        height: 46vw;
+    }
+}

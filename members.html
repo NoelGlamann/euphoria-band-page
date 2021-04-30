@@ -8,8 +8,8 @@ February 5, 2021
 		<title>Euphoria</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/members.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="members.css">
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -44,140 +44,135 @@ February 5, 2021
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
+		
+        <div class="mobilemenu">
+            <div class="topnav">
+                <a href="#home" class="active">N</a>
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="members.html">Members</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
 		<!--NAV BAR END-->
+
 		<div class="content">
-			<img src="img/live-two-7.jpg">
-			<div class="title">
-				<p> Meet the Band </p>
+			<img class="top" src="img/live-two-7.jpg">
+			<div class="title">Meet the Band <br> <i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<div class="bio">
-				<p> This section is all about you guys. 
-					we could add sections about each member
-					or a blurb about the band as a whole. 
-					your story, blah , blah whatever you want. 
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam iste eligendi impedit vero, ullam quaerat minus, aliquam culpa voluptates, consectetur deserunt recusandae? Ad obcaecati et hic iure sequi! Dolores, architecto.
-				</p>
 			</div>
 
 		</div>
 
-		<div class="kendrick">
-			<div class="details-left">
-				<div class="name">
-					<h1>Kendrick Bearpaw</h1>
-					<h3>(Queen Weezal)</h3>
-					<br>
-					<p>
-						Lorem ipsum dolor sit amet consectetur 
-						adipisicing elit. Necessitatibus, quasi 
-						non saepe quo vitae itaque ea debitis 
-						rem perspiciatis possimus ratione 
-						architecto sequi, cum, fuga ab maiores 
-						voluptatem in iusto.
-					</p>
+		<!--BAND MEMBERS-->
+
+		<!--KENDRICK-->
+		<button type="button" class="collapsible"><span style="font-weight: strong; font-size: 2vw;">Kendrick Bearpaw</span> <br> Lead Vocalist / Gutarist</button>
+			<div class="inside">
+				<div class="kendrick">
+					<div class="left">
+						<h1> Queen Weezal </h1>
+						<div class="imgbox">
+							<img src="img/self-kendrick3.jpg" height="400vw">
+							<img src="img/self-kendrick2.jpg" height="400vw">
+							<img src="img/self-kendrick4.jpg" height="400vw">
+						</div>	
+					</div>
+					<div class="right">
+						<p>
+							BIO
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="details-right">
-				<h2 style="text-align: right;">Lead Vocalist/Guitarist</h2>
-				<div class="images">
-					<img src="img/self-kendrick3.jpg" height="400">
-					<img src="img/self-kendrick2.jpg" height="400">
-					<img src="img/self-kendrick4.jpg" height="400">
-				</div>
-			</div>
+			</div> 
 		</div>
-		<div class="simon">
-			<div class="details-left">
-				<div class="name">
-					<h1>Simon Wacker</h1>
-					<h3>(The Wackman)</h3>
+		<!--SIMON-->
+		<button type="button" class="collapsible"><span style="font-weight: strong; font-size: 2vw;">Simon Wacker</span> <br> Bassist / Vocalist</button>
+			<div class="inside">
+				<div class="kendrick">
+					<div class="left">
+						<h1> Queen Weezal </h1>
+						<div class="imgbox">
+							<img src="img/self-kendrick3.jpg" height="400vw">
+							<img src="img/self-kendrick2.jpg" height="400vw">
+							<img src="img/self-kendrick4.jpg" height="400vw">
+						</div>	
+					</div>
+					<div class="right">
+						<p>
+							BIO
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="details-right">
-				<h2>Bassist</h2>
-				<img src="img/self-simon4.jpg" height="400">
-			</div>
+			</div>        
 		</div>
-		<div class="kendrick">
-			<div class="details-left">
-				<div class="name">
-					<h1>Koda LastName</h1>
-					<h3>(Short Scale)</h3>
+		<!--KODA-->
+		<button type="button" class="collapsible"><span style="font-weight: strong; font-size: 2vw;">Koda Something</span> <br> Guitarist </button>
+			<div class="inside">
+				<div class="kendrick">
+					<div class="left">
+						<h1> Queen Weezal </h1>
+						<div class="imgbox">
+							<img src="img/self-kendrick3.jpg" height="400vw">
+							<img src="img/self-kendrick2.jpg" height="400vw">
+							<img src="img/self-kendrick4.jpg" height="400vw">
+						</div>	
+					</div>
+					<div class="right">
+						<p>
+							BIO
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="details-right">
-				<h2>Guitarist</h2>
-				<img src="img/self-koda.jpg" height="400">
-			</div>
+			</div>        
 		</div>
-		<div class="kendrick">
-			<div class="details-left">
-				<div class="name">
-					<h1>Reed LastName</h1>
-					<h3>(???)</h3>
+		<!--REED-->
+		<button type="button" class="collapsible"><span style="font-weight: strong; font-size: 2vw;">Reed Something</span> <br>Drummer</button>
+			<div class="inside">
+				<div class="kendrick">
+					<div class="left">
+						<h1> Queen Weezal </h1>
+						<div class="imgbox">
+							<img src="img/self-kendrick3.jpg" height="400vw">
+							<img src="img/self-kendrick2.jpg" height="400vw">
+							<img src="img/self-kendrick4.jpg" height="400vw">
+						</div>	
+					</div>
+					<div class="right">
+						<p>
+							BIO
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="details-right">
-				<h2>Drummer</h2>
-			</div>
+			</div>       
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 			
-			<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			
-			function plusSlides(n) {
-			  showSlides(slideIndex += n);
-			}
-			
-			function currentSlide(n) {
-			  showSlides(slideIndex = n);
-			}
-			
-			function showSlides(n) {
-			  var i;
-			  var slides = document.getElementsByClassName("mySlides");
-			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {slideIndex = 1}    
-			  if (n < 1) {slideIndex = slides.length}
-			  for (i = 0; i < slides.length; i++) {
-				  slides[i].style.display = "none";  
-			  }
-			  for (i = 0; i < dots.length; i++) {
-				  dots[i].className = dots[i].className.replace(" active", "");
-			  }
-			  slides[slideIndex-1].style.display = "block";  
-			  dots[slideIndex-1].className += " active";
-			}
-			</script>
-
+        <!--JS for drop downs-->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("current");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
 
 
 

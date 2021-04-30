@@ -1,0 +1,86 @@
+/*Noel Glamann
+February 5, 2021*/
+
+
+
+/* ===============================
+        MOBILE
+================================*/
+@media only screen and (max-width: 480px){
+  
+    
+}
+/* ===============================
+        DESKTOP
+================================*/
+@media only screen and (min-width: 481px){
+    div.content{
+        display: block;
+        width: 100%;
+    }
+    img.top{
+        display: block;
+        width: 100%;
+        opacity: 0.5;
+        position: relative;
+    }
+    div.title{
+        display: block;
+        width:80%;
+        text-align: center;
+        font-size: 8vw;
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+
+    }
+
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 1vw;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1vw;
+    }
+    
+    .current, .collapsible:hover {
+        background-color: #555;
+    }
+    
+    .inside {
+        padding: 0 3vw;
+        display: none;
+        width: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+    .kendrick{
+        width: 100%;
+    }
+    .inside h1{
+        text-align: center;
+    }
+    .imgbox{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+
+        flex-shrink: 3;
+    }
+
+    .left{
+        width: 55%;
+        float: left;
+    }
+    .right{
+        width: 30%;
+        float: left;
+        padding: 5%;
+    }
+
+}

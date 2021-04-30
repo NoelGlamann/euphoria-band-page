@@ -1,0 +1,128 @@
+/*Noel Glamann
+February 5, 2021*/
+
+body{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    background: black;
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ===============================
+        MOBILE
+================================*/
+@media only screen and (max-width: 480px){
+    div.topbar{display: none;}
+    div.navbar{display: none;}
+    div.mobilemenu{
+        display: block;
+        width: 100%;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        width: 100%;
+    }
+    .topnav #myLinks {
+        display: none;
+    } 
+    .topnav a {
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-align: right;
+    }
+    .topnav a.icon {
+        background: #333;
+        display: block;
+        width: 5%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .active {
+        background-color: #333;
+        color: white;
+    }
+    
+}
+/* ===============================
+        DESKTOP
+================================*/
+@media only screen and (min-width: 481px){
+    div.mobilemenu{display: none;}
+    .topbar{
+        display: block;
+        width: 100%;
+        padding: 0.2vw 0;
+        background: black;
+        height: 22px;
+    }
+    .topbar-left{
+        display: block;
+        width: 45vw;
+        float: left;
+        color: white;
+    }
+    .topbar-left a{
+        text-decoration: none;
+    }
+    .topbar-left i{
+        padding-left: 1.5vw;
+    }
+    .topbar-right{
+        display: block;
+        width: 50vw;
+        float: left;
+        text-align: right;
+    }
+    .topbar a{
+        color: white;
+        font-size: 1vw;
+    }
+    .navbar{
+        display: block;
+        width: 100%;
+        padding: 0.2vw 0;
+    
+        border-top: solid 1px darkgray;
+        color: white;
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin: .5vw;
+    }
+    .navbar li{
+        display: inline;
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline;
+        padding: 0px 1vw;
+        font-size: 1.4vw;
+        margin-left: 1vw;
+    }
+    .navbar a:hover{
+        color: purple;
+    }
+    .active a{
+        color: grey;
+    }
+}

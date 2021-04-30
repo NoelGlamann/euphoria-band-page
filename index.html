@@ -8,8 +8,8 @@ February 5, 2021
 		<title>Euphoria</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/indexx.css" media="all">
-		<link rel="stylesheet" href="css/style2.css" media="all">
+		<link rel="stylesheet" href="style.css" media="all">
+		<link rel="stylesheet" href="index.css" media="all">
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Allura&family=Handlee&family=Montserrat:wght@300&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -44,19 +44,45 @@ February 5, 2021
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<!--NAV BAR END-->
 		
+        <div class="mobilemenu">
+            <div class="topnav">
+                <a href="#home" class="active">N</a>
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="members.html">Members</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+		<!--NAV BAR END-->
+
+
 		<!--HEADING-->
 		<div class="pageheader">
-			<div class="backimg">
-				<img src="img/live-four.jpg">
-			</div>
 			<div class="center"> 
 				<h1>EUPHORIA</h1> 
 				<p><span style="font-family: 'Handlee', cursive;">STL</span> local band</p>
 			</div>
 		</div>
 		<!--HEADING END-->
+		<img class="mobileimg" src="landing.jpg">
+		<img class="mobileimg2" src="img/blogo.png">
 		
+        <!--JS for mobile nav menu-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
 	</body>
 </html>

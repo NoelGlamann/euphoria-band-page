@@ -10,8 +10,8 @@ February 5, 2021
 		<title>Euphoria</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/events.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="events.css">
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -46,10 +46,25 @@ February 5, 2021
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
+		
+        <div class="mobilemenu">
+            <div class="topnav">
+                <a href="#home" class="active">N</a>
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="members.html">Members</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
 		<!--NAV BAR END-->
 
 		<!--HEADING-->
-		<div class="backimg">
+		<div class="top">
 			<div class="words">
 				<br>
 				<br>
@@ -60,9 +75,12 @@ February 5, 2021
 					Play<br>
 				</div>
 			</div>
-			<img src="img/livee.jpg">
+			<div class="mobwords">
+					Come See <br> Us Play
+			</div>
+			<img class="back" src="img/livee.jpg">
 		</div>
-		
+
 		<!--HEADING END-->
 
 		<!-- CONTENT START -->
