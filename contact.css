@@ -1,7 +1,7 @@
 /*Noel Glamann
 March 10, 2021*/
 
-.backdrop{
+/*.backdrop{
     display: block;
     width: 100%;
 }
@@ -34,4 +34,114 @@ March 10, 2021*/
 .information h1{
     text-align: center;
     font-size:50px;
+}*/
+
+
+
+/* ===============================
+        MOBILE
+================================*/
+@media only screen and (max-width: 480px){
+  
+    
+}
+/* ===============================
+        DESKTOP
+================================*/
+@media only screen and (min-width: 481px){
+    .navbar{background: black;}
+    body{background: grey;}
+    .head{
+        display: block;
+        width: 50%;
+        margin: 0 25%;
+        border-bottom: 1px solid white;
+    }
+    .head p{
+        text-align: center;
+        font-size: 6vw;
+        margin: 2vw;
+    }
+    .confor{
+        display: block;
+        width: 30%;
+        margin-left: 18%;
+        margin-top:3vw;
+        background: white;
+        padding: 1vw;
+    }
+    input[type=text]{
+        margin-top: 0.5vw;
+        width: 47%;
+        padding: 5px;
+        font-size: 1vw;
+        color: black;
+    }
+
+    ::placeholder {
+        color: purple;
+        opacity: 1; 
+    }
+    textarea{
+        margin-top: 1vw;
+        width: 98%;
+        resize: none;
+        height: 6vw;
+        font-size: 0.9vw;
+    }
+    form > p{
+        color: black;
+    }
+    form > label {
+        color: black;
+    }
+    input[type="submit"]{
+        width: 20%;
+        padding: 0.3vw;
+        font-size: 1vw;
+        margin-left: 40%;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 27.5%;
+        perspective: 1000px;
+        margin: 3vw;
+    }
+      
+    .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+      
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+      
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-box-front {
+        color: black;
+      }
+      
+      .flip-box-back {
+        background-color: greenyellow;
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+
+
+
+
 }

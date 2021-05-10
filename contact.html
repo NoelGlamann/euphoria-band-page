@@ -9,7 +9,7 @@ February 5, 2021
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<!-- CSS -->
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="contact.css">
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -38,9 +38,9 @@ February 5, 2021
 		<!--NAV BAR-->
 		<div class="navbar">
 			<ul>
-				<li class="active"><a href="events.html">Events</a></li>
+				<li><a href="events.html">Events</a></li>
 				<li><a href="members.html">Members</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
 		
@@ -58,57 +58,59 @@ February 5, 2021
                 </a>
             </div>
         </div>
-		<!--NAV BAR END-->
-		<div class="backdrop">
-			<img src="img/live-two-3.jpg">
+
+
+		<div class="head">
+			<p>Let's Connect</p>
+		</div>
+		<div class="confor">
+			<form action="https://formspree.io/f/xrgrpzar" method="POST">
+				<input type="text" id="first" name="First" placeholder="* First Name" required>
+				<input type="text" id="last" name="Last" placeholder="* Last Name" required><br>
+
+				<input type="text" id="emadd" name="Email Address" placeholder="* Email Address" required>
+				<input type="text" id="num" name="Phone #" placeholder="* Phone Number" required><br>
+
+				<textarea id="msg" name="message" placeholder="Message..."></textarea>
+
+				<p class="lowp"> How can I reach you? </p>
+				<input type="checkbox" id="conPN" name="Contact By" value="call">
+				<label id="cbx" for="conPN">Phone Call</label><br>
+				<input type="checkbox" id="conTXT" name="Contact By" value="text">
+				<label id="cbx" for="conTXT">SMS/Text</label><br>
+				<input type="checkbox" id="conEM" name="Contact By" value="email">
+				<label id="cbx" for="conEM">Email</label><br>
+
+				<input type="submit" name="submit" value="Submit">
+			</form>
 		</div>
 
 
-
-
-
-
-
-
-
-
-		<div class="bandcontact">
-			<div class="information">
-				<h1>Contact Euphoria</h1>
-				<i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp St. Charles, MO<br>
-				<i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (###) ### - ####<br>
-				<i class="fa fa-envelope-open-o" aria-hidden="true"></i> &nbsp bandemail@email.com<br>
-				<i class="fa fa-address-card-o" aria-hidden="true"></i> &nbsp Address for mail if you want??<br>
-			
-				<div class="socials">
-					<a href="#"><i class="fab fa-twitter-square"></i></a>
-					<a href="#"><i class="fab fa-facebook-square"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-					<a href="#"><i class="fab fa-youtube-square"></i></a>
+		<div class="flip-box">
+			<div class="flip-box-inner">
+			  	<div class="flip-box-front">
+					<img src="img/four1.jpg" alt="Euphoria" style="width: 100%;">
+			  	</div>
+				<div class="flip-box-back">
+					<div class="information">
+						<i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp St. Charles, MO<br>
+						<i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (###) ### - ####<br>
+						<i class="fa fa-envelope-open-o" aria-hidden="true"></i> &nbsp bandemail@email.com<br>
+						<i class="fa fa-address-card-o" aria-hidden="true"></i> &nbsp Address for mail if you want??<br>
+						<div class="socials">
+							<a href="#"><i class="fab fa-twitter-square"></i></a>
+							<a href="#"><i class="fab fa-facebook-square"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-youtube-square"></i></a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="confor">
-				<form>
-					<label for="first">First Name</label>
-					<input type="text" name="first" id="first" required>
-					&nbsp &nbsp
-					<label for="last">Last Name</label>
-					<input type="text" name="last" id="last" required><br>
-
-					<label for="phone">Phone</label>
-					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####" required>
-
-					<label for="email">Email Address</label>
-					<input type="text" id="emial" name="email" required><br>
-
-					<label for="types">How would you like us to reach you?</label><br>
-					<input type="checkbox" id="text" name="text" value="TXT">
-					<label for="text">Text Mobile Number Above</label><br>
-					<input type="checkbox" id="email" name="email" value="EMAIL">
-					<label for="text">Email Address Above</label>
-				</form>
-			</div>
 		</div>
+
+
+		
+	</div>
 
     </body>
 </html>
