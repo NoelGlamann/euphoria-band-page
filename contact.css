@@ -50,7 +50,12 @@ March 10, 2021*/
 ================================*/
 @media only screen and (min-width: 481px){
     .navbar{background: black;}
-    body{background: grey;}
+    html{min-height: 100%;}
+    body{
+        background-image: linear-gradient(black, grey);
+        margin: 0;
+        min-height: 100%;
+    }
     .head{
         display: block;
         width: 50%;
@@ -65,10 +70,17 @@ March 10, 2021*/
     .confor{
         display: block;
         width: 30%;
+        height: 23vw;
         margin-left: 18%;
         margin-top:3vw;
         background: white;
         padding: 1vw;
+    }
+    form{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
     }
     input[type=text]{
         margin-top: 0.5vw;
@@ -104,7 +116,8 @@ March 10, 2021*/
 
     .flip-box {
         background-color: transparent;
-        width: 27.5%;
+        width: 30vw;
+        height: 30vw;
         perspective: 1000px;
         margin: 3vw;
     }

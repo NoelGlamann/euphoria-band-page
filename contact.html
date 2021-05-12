@@ -26,7 +26,6 @@ February 5, 2021
 			</div>
 			<div class="topbar-right">
 				<div class="social">
-					<a href="#"><i class="fab fa-twitter-square"></i></a>
 					<a href="#"><i class="fab fa-facebook-square"></i></a>
 					<a href="#"><i class="fab fa-instagram"></i></a>
 					<a href="#"><i class="fab fa-youtube-square"></i></a>
@@ -73,7 +72,7 @@ February 5, 2021
 
 				<textarea id="msg" name="message" placeholder="Message..."></textarea>
 
-				<p class="lowp"> How can I reach you? </p>
+				<p class="lowp"> How can I reach you? </p><br>
 				<input type="checkbox" id="conPN" name="Contact By" value="call">
 				<label id="cbx" for="conPN">Phone Call</label><br>
 				<input type="checkbox" id="conTXT" name="Contact By" value="text">
@@ -107,6 +106,18 @@ February 5, 2021
 				</div>
 			</div>
 		</div>
+		
+		<!--JS for mobile nav menu-->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 
 
 		

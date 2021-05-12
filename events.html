@@ -28,9 +28,7 @@ February 5, 2021
 			</div>
 			<div class="topbar-right">
 				<div class="social">
-					<a href=""><i class="fab fa-twitter-square"></i></a>
 					<a href=""><i class="fab fa-facebook-square"></i></a>
-					<a href=""><i class="fab fa-linkedin"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
 					<a href=""><i class="fab fa-youtube-square"></i></a>
 				</div>
@@ -90,46 +88,24 @@ February 5, 2021
 				<div class="calendar">
 					<iframe  id="calendar" src="calendars/march.html" title="Calendar" style="border:none;">
 				</div>
-				
-				<div class="booking">
-					<h2>Booking Information</h2>
-				</div>
 
 			</div>
 
 
 		<!-- CONTENT END -->
+		
+		<!--JS for mobile nav menu-->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 
-
-
-
-
-
-
-	<!--SIDEBAR
-	<div class="sidebar">
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-		<h1>Book a gig</h1>
-	</div>
-	SIDEBAR END-->
-
-	<!--MAIN
-	<div class="main">
-		<h1> calendar</h1>
-		<div class="calendar">
-			<iframe  id="calendar" src="calendars/march.html" title="Calendar" style="border:none;">
-		</div>
-	</div>
-	MAIN END-->
-
-</body>
+	</body>
 
 </html>
